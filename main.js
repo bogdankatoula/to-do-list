@@ -6,7 +6,7 @@ const searchBar$$ = document.querySelector("input");
 
 
 function handleAdd (event){
-    event.preventDefault(); // Detener el comportamiento por defecto del botón
+    event.preventDefault(); // Detener el comportamiento por defecto del botón donde reinicia la pagina
     const li$$ = document.createElement("li");
     const span$$ = document.createElement("span");
     const btnRemove$$ = document.createElement("button");
